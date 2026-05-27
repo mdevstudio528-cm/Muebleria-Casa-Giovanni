@@ -1,0 +1,396 @@
+<section class="inicio-page">
+
+  <!-- HERO BANNER DÍA DEL PADRE -->
+  <div class="hero-banner">
+    <div class="hero-content">
+      <span class="hero-tag">🎁 Ofertas Especiales 2026</span>
+      <h1>Feliz Día del <span class="highlight">Padre</span> 👨</h1>
+      <p>Sorprende a papá con los mejores productos para su hogar</p>
+      <div class="hero-badges">
+        <span>🚚 Envíos a domicilio</span>
+        <span>✅ Garantía oficial</span>
+        <span>⏰ Vigencia 30 de Junio 2026</span>
+        <span>⚽ Ofertas Mundialistas</span>
+      </div>
+    </div>
+    <div class="hero-decoracion">
+      <span class="deco-mustache">👨</span>
+      <span class="deco-heart">💙</span>
+    </div>
+  </div>
+
+  <!-- GRID DE PRODUCTOS -->
+  <div class="productos-section">
+    <h2 class="section-title">
+      <span class="linea"></span>
+      Promociones Día del Padre
+      <span class="linea"></span>
+    </h2>
+
+    <div class="productos-grid">
+
+      <!-- 1 Hisense 65" $9,999 -->
+      <div class="producto-card" (click)="abrirModal(0)">
+        <div class="badge-oferta">⚽ Mundial 2026</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/hisense-9999.jpeg" alt="Pantalla Hisense 65" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Pantalla Hisense 65"</h3>
+          <p class="modelo">UHD 4K | VIDAA Smart TV</p>
+          <div class="precio-wrap">
+            <span class="precio">$9,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 2 Hyundai 65" $8,999 -->
+      <div class="producto-card" (click)="abrirModal(1)">
+        <div class="badge-oferta">⚽ Mundial 2026</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/hyundai-8999.jpeg" alt="Pantalla Hyundai 65" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Pantalla Hyundai 65" QLED</h3>
+          <p class="modelo">4K | Google TV | Dolby Audio</p>
+          <div class="precio-wrap">
+            <span class="precio">$8,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 3 Estufa IEM $5,899 -->
+      <div class="producto-card" (click)="abrirModal(2)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/estufa-iem-5899.jpeg" alt="Estufa IEM" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Estufa IEM</h3>
+          <p class="modelo">Mod: EI3520BAP</p>
+          <div class="precio-wrap">
+            <span class="precio">$5,899<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 4 Hisense Mundial v2 $9,999 -->
+      <div class="producto-card" (click)="abrirModal(3)">
+        <div class="badge-oferta">⚽ Mundial 2026</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/hisense-mundial-9999.jpeg" alt="Hisense FIFA 65" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Pantalla Hisense 65" FIFA</h3>
+          <p class="modelo">Mod: 65A65NV | UHD 4K</p>
+          <div class="precio-wrap">
+            <span class="precio">$9,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 5 Lavadora Koblenz $6,600 -->
+      <div class="producto-card" (click)="abrirModal(4)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/lavadora-koblenz-6600.jpeg" alt="Lavadora Koblenz 22kg" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Lavadora Koblenz 22kg</h3>
+          <p class="modelo">Mod: LDM-22B</p>
+          <div class="precio-wrap">
+            <span class="precio">$6,600<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 6 Mesa Quitapon $499 -->
+      <div class="producto-card" (click)="abrirModal(5)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/mesa-quitapon-499.jpeg" alt="Mesa Quitapon Blanca" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Mesa Cuadrada Quitapon</h3>
+          <p class="modelo">Color: Blanca</p>
+          <div class="precio-wrap">
+            <span class="precio">$499<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 7 Refri Mabe 8 pies $5,599 -->
+      <div class="producto-card" (click)="abrirModal(6)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/refri-mabe-8p-5599.jpeg" alt="Refrigerador Mabe 8 Pies" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Refrigerador Mabe 8 Pies</h3>
+          <p class="modelo">Mod: RMA210PV | 208 Litros</p>
+          <div class="precio-wrap">
+            <span class="precio">$5,599<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 8 Lavadora Mabe 22kg $6,999 -->
+      <div class="producto-card" (click)="abrirModal(7)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/lavadora-mabe-6999.jpeg" alt="Lavadora Mabe 22kg" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Lavadora Mabe 22kg</h3>
+          <p class="modelo">Mod: LMDX2224HABO</p>
+          <div class="precio-wrap">
+            <span class="precio">$6,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 9 Refri Mabe 9 pies $7,899 -->
+      <div class="producto-card" (click)="abrirModal(8)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/refri-mabe-9p-7899.jpeg" alt="Refrigerador Mabe 9 Pies" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Refrigerador Mabe 9 Pies</h3>
+          <p class="modelo">251 Litros de capacidad</p>
+          <div class="precio-wrap">
+            <span class="precio">$7,899<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 10 Lavadora Hisense 18kg $5,299 -->
+      <div class="producto-card" (click)="abrirModal(9)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/lavadora-hisense-5299.jpeg" alt="Lavadora Hisense 18kg" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Lavadora Hisense 18kg</h3>
+          <p class="modelo">Mod: WSA1803P</p>
+          <div class="precio-wrap">
+            <span class="precio">$5,299<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 11 Mesa con sillas $1,291 -->
+      <div class="producto-card" (click)="abrirModal(10)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/mesa-sillas-1291.jpeg" alt="Juego Mesa con Sillas" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Juego de Mesa con Sillas</h3>
+          <p class="modelo">Ideal para hogar o negocio</p>
+          <div class="precio-wrap">
+            <span class="precio">$1,291<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 12 Lavadora Winia 18kg $4,799 -->
+      <div class="producto-card" (click)="abrirModal(11)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/lavadora-winia-4799.jpeg" alt="Lavadora Winia 18kg" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Lavadora Winia 18kg</h3>
+          <p class="modelo">Mod: DWM-K363PW</p>
+          <div class="precio-wrap">
+            <span class="precio">$4,799<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 13 Refri Mabe 14 pies $11,899 -->
+      <div class="producto-card" (click)="abrirModal(12)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/refri-mabe-14p-11899.jpeg" alt="Refrigerador Mabe 14 Pies" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Refrigerador Mabe 14 Pies</h3>
+          <p class="modelo">363 Litros de capacidad</p>
+          <div class="precio-wrap">
+            <span class="precio">$11,899<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 14 Refri Mabe 11 pies $9,299 -->
+      <div class="producto-card" (click)="abrirModal(13)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/refri-mabe-11p-9299.jpeg" alt="Refrigerador Mabe 11 Pies" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Refrigerador Mabe 11 Pies</h3>
+          <p class="modelo">302 Litros de capacidad</p>
+          <div class="precio-wrap">
+            <span class="precio">$9,299<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 15 Refri Mabe 14 v2 $11,899 -->
+      <div class="producto-card" (click)="abrirModal(14)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/refri-mabe-14p-v2-11899.jpeg" alt="Refrigerador Mabe 14 Pies v2" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Refrigerador Mabe 14 Pies</h3>
+          <p class="modelo">363 Litros | Dispensador</p>
+          <div class="precio-wrap">
+            <span class="precio">$11,899<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 16 Hyundai Mundial $8,999 -->
+      <div class="producto-card" (click)="abrirModal(15)">
+        <div class="badge-oferta">⚽ Mundial 2026</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/hyundai-mundial-8999.jpeg" alt="Hyundai Mundial 65" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Pantalla Hyundai 65" Roku TV</h3>
+          <p class="modelo">Mod: Hyled6516qr</p>
+          <div class="precio-wrap">
+            <span class="precio">$8,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 17 Hisense Mundial v2 $9,999 -->
+      <div class="producto-card" (click)="abrirModal(16)">
+        <div class="badge-oferta">⚽ Mundial 2026</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/hisense-mundial-v2-9999.jpeg" alt="Hisense Mundial v2" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Pantalla Hisense 65" 4K</h3>
+          <p class="modelo">Mod: 65A65NV | Dolby Vision</p>
+          <div class="precio-wrap">
+            <span class="precio">$9,999<sup>.00</sup></span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+      <!-- 18 Silla Milan $198 -->
+      <div class="producto-card" (click)="abrirModal(17)">
+        <div class="badge-oferta">🎁 Día del Padre</div>
+        <div class="producto-img-wrap">
+          <img src="assets/productos/silla-milan-198.jpeg" alt="Silla Milan Puebla" loading="lazy">
+          <div class="overlay-ver"><span>👁 Ver más</span></div>
+        </div>
+        <div class="producto-info">
+          <h3>Silla Milan Puebla</h3>
+          <p class="modelo">Rojo | Verde | Amarillo</p>
+          <div class="precio-wrap">
+            <span class="precio">$198<sup>.00</sup></span>
+            <span class="unidad">/ pieza</span>
+          </div>
+          <button class="btn-ver">Ver detalles</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BANNER WHATSAPP -->
+  <div class="whatsapp-banner">
+    <div class="whatsapp-content">
+      <div class="whatsapp-text">
+        <span class="whatsapp-icon">💬</span>
+        <div>
+          <h3>¿Te interesa algún producto?</h3>
+          <p>Contáctanos por WhatsApp para cotizar o comprar</p>
+        </div>
+      </div>
+      <a href="https://wa.me/527711639656?text=Hola%20Mueblería%20Casa%20Giovanni%2C%20me%20interesa%20cotizar%20un%20producto%20de%20su%20catálogo%20🛋️"
+         target="_blank"
+         class="btn-whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Chatear por WhatsApp
+      </a>
+    </div>
+    <div class="whatsapp-numero">📞 +52 771 163 9656</div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" *ngIf="modalAbierto" (click)="cerrarModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="modal-close" (click)="cerrarModal()">✕</button>
+      <div class="modal-body" *ngIf="productoSeleccionado">
+        <div class="modal-img-wrap">
+          <img [src]="productoSeleccionado.imagen" [alt]="productoSeleccionado.nombre">
+        </div>
+        <div class="modal-info">
+          <div class="modal-badge">{{ productoSeleccionado.badge }}</div>
+          <h2>{{ productoSeleccionado.nombre }}</h2>
+          <p class="modal-modelo">{{ productoSeleccionado.modelo }}</p>
+          <div class="modal-precio">{{ productoSeleccionado.precio }}</div>
+          <div class="modal-detalles">
+            <div class="detalle-item">🚚 Envíos a domicilio con costo extra</div>
+            <div class="detalle-item">❌ No contamos con crédito</div>
+            <div class="detalle-item">📅 Vigencia: 30 de Junio 2026</div>
+            <div class="detalle-item">⚠️ O hasta agotar existencias</div>
+          </div>
+          <a [href]="'https://wa.me/527711639656?text=Hola%20Mueblería%20Casa%20Giovanni%2C%20me%20interesa%20' + productoSeleccionado.nombre + '%20a%20' + productoSeleccionado.precio"
+             target="_blank"
+             class="btn-whatsapp-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Cotizar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
